@@ -1,0 +1,53 @@
+.button {
+	display: inline-block;
+	cursor: pointer;
+	color: #fff;
+	background: purple;
+	padding: 8px 15px;
+	font-weight: 600;
+	border: 2px solid #90a4ae;
+	text-decoration: none;
+	margin-bottom: 10px;
+	transition: 0.2s ease-in;
+	border-radius: 7px;
+}
+
+.button:hover, .button:active, .button:focus {
+	background: #7000cc;
+	box-shadow: 0px 1px 15px #cfd8dc;
+}
+
+.button--danger {
+	background: red; 
+}
+
+.button--good, .button--warning {
+	border-color: #380066;
+}
+
+.button--good {
+	background: green;
+}
+
+.button--warning {
+	background: orange;
+	color: black;
+}
+
+.button--warning:hover {
+	background: #cc8500;
+}
+
+.button--danger:hover {
+	background: darkred;
+}
+
+.button--good:hover {
+	background: darkgreen;
+}
+
+.button--link:hover {
+	background: transparent;
+	border-color: black;
+	color: black;
+}

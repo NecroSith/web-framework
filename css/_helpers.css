@@ -1,0 +1,27 @@
+.visible {
+	text-align: center;
+	/*font-size: 22px;*/
+	background-color: Purple;
+	padding: 30px 10px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 10px 10px 0px rgba(100, 100, 100, 0.3);
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}

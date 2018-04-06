@@ -1,0 +1,35 @@
+.input {
+	display: block;
+	width: 100%;
+	border: 2px solid #cfd8dc;
+	border-radius: 3px;
+	padding: 5px 10px;
+	transition: 0.2s ease-in;
+}
+
+.input:focus, .input:hover, .input:active,
+.textarea:focus, .textarea:hover, .textarea:active {
+	border: 2px solid #607d8b;
+	box-shadow: 
+}
+
+.textarea {
+	display: block;
+	width: 100%;
+	resize: vertical;
+	border: 2px solid #cfd8dc;
+	border-radius: 3px;
+	padding: 5px 10px;
+	transition: border 0.2s ease-in;	
+}
+
+.label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.form-group {
+	margin-bottom: 25px;
+}
